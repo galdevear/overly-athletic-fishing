@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "reference",
+        "name": "veer:deep_fishing/biome_tags/oceans"
+      },
+      {
+        "condition": "reference",
+        "name": "veer:deep_fishing/biome_tags/beaches"
+      }
+    ]
+  }

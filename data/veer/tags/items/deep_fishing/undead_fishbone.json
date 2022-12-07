@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        "spider_eye",
+        "honeycomb",
+        "magma_cream",
+        "cod",
+        "tropical_fish",
+        "pufferfish",
+        "porkchop",
+        "rabbit_foot",
+        "turtle_egg",
+        "cake",
+        "bundle",
+        "bone",
+
+        "rotten_flesh",
+        "soul_lantern",
+        "pumpkin_pie"
+    ]
+}

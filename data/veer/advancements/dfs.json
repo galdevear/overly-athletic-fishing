@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Deep Sea Fishing",
+        "description": "Fish using a bait in oceans for a fast-paced fishing experience.",
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:deep_fishing",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "reference",
+        "name": "veer:deep_fishing/biome_tags/beaches"
+
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:deep_warm_ocean"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:deep_ocean"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:deep_lukewarm_ocean"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:deep_frozen_ocean"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:deep_cold_ocean"
+        }
+      }
+    ]
+  }

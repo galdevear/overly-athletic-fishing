@@ -1,0 +1,448 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:porkchop",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "tag": "veer:deep_fishing/pig_fish"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "y": {
+                      "min": 30
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "veer:deep_fishing/biome_tags/pig_fish"
+              },
+              {
+                "condition": "reference",
+                "name": "veer:deep_fishing/structure_tags/pigfin"
+              }
+            ],
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:5471727}"
+              },
+              {
+                "function": "set_name",
+                "name": "Pigfin"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:salmon",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "tag": "veer:deep_fishing/salmon"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "y": {
+                      "min": 30
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "veer:deep_fishing/biome_tags/salmon"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cod",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "tag": "veer:deep_fishing/cod"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "y": {
+                      "min": 30
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "veer:deep_fishing/biome_tags/cod"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pufferfish",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "tag": "veer:deep_fishing/pufferfish"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "y": {
+                      "min": 30
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "alternative",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "position": {
+                        "y": {
+                          "max": 55
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition":"weather_check",
+                    "raining": true
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "veer:deep_fishing/biome_tags/pufferfish"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tropical_fish",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "tag": "veer:deep_fishing/tropical_fish"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "y": {
+                      "min": 40
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "veer:deep_fishing/biome_tags/tropical_fish"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bundle",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "tag": "veer:deep_fishing/endlermaw"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "y": {
+                      "max": 40
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "veer:deep_fishing/biome_tags/endlermaw"
+              }
+            ],
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:4439732, Items:[{id:gunpowder, Count:1b, display: {Name: '{\"text\":\"Explosive Stomach Acid\"}'}}]}"
+              },
+              {
+                "function": "set_name",
+                "name": "Endlermaw"
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:4439732, Items:[{id:gunpowder, Count:2b, display: {Name: '{\"text\":\"Explosive Stomach Acid\"}'}}]}",
+                "conditions": [{"condition": "random_chance","chance": 0.7}]
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:4439732, Items:[{id:gunpowder, Count:3b, display: {Name: '{\"text\":\"Explosive Stomach Acid\"}'}}]}",
+                "conditions": [{"condition": "random_chance","chance": 0.3}]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "tag": "veer:deep_fishing/undead_fishbone"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "y": {
+                      "max": 50,
+                      "min": 30
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "alternative",
+                "terms": [
+                  {
+                    "condition": "time_check",
+                    "period": 24000,
+                    "value": {
+                      "min":13000,
+                      "max":23000
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "position": {
+                        "y": {
+                          "max": 40
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "veer:deep_fishing/biome_tags/skeleton_fish"
+              }
+            ],
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:5471727}"
+              },
+              {
+                "function": "set_name",
+                "name": "Skeleton Fish"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "tag": "veer:deep_fishing/xp_jelly"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "y": {
+                      "max": 40
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "veer:deep_fishing/biome_tags/xp_jelly"
+              }
+            ],
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:9017459}"
+              },
+              {
+                "function": "set_name",
+                "name": "XP Jelly"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tropical_fish",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "tag": "veer:deep_fishing/endlerpip"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "y": {
+                      "max": 45
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "veer:deep_fishing/biome_tags/endlerpip"
+              }
+            ],
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:3552613}"
+              },
+              {
+                "function": "set_name",
+                "name": "Endler Pip"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bundle",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "tag": "veer:deep_fishing/clam"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "y": {
+                      "max": 35,
+                      "min": 30
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "veer:deep_fishing/biome_tags/clam"
+              }
+            ],
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:4339142}"
+              },
+              {
+                "function": "set_name",
+                "name": "Snapping Clam"
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:4339142, Items:[{id:white_dye, Count:1b, tag:{CustomModelData:4339142}}]}",
+                "conditions": [{"condition": "random_chance","chance": 0.05}]
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:4339142, Items:[{id:ender_pearl, Count:1b}]}",
+                "conditions": [{"condition": "random_chance","chance": 0.1}]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

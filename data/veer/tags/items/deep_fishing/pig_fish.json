@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "carrot",
+        "gold_nugget",
+        "golden_carrot",
+        "poisonous_potato",
+        "potato",
+        "baked_potato",
+        "beetroot",
+        "carrot_on_a_stick"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "#veer:deep_fishing/cod",
+        "#veer:deep_fishing/bait",
+        "#veer:deep_fishing/pig_fish",
+        "#veer:deep_fishing/pufferfish",
+        "#veer:deep_fishing/salmon",
+        "#veer:deep_fishing/tropical_fish",
+        "#veer:deep_fishing/fish",
+        "#veer:deep_fishing/live_bait",
+        "#veer:deep_fishing/lures_and_baits",
+        "#veer:deep_fishing/clam",
+        "#veer:deep_fishing/endlermaw",
+        "#veer:deep_fishing/endlerpip",
+        "#veer:deep_fishing/undead_fishbone",
+        "#veer:deep_fishing/xp_jelly"
+    ]
+}

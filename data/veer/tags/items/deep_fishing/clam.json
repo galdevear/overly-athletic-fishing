@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+        "ender_pearl",
+        "prismarine_shard",
+
+        "nether_wart",
+        "ender_eye",
+        "magma_cream",
+
+        "cobweb",
+        "leather",
+        "saddle",
+        "leather_boots",
+        "leather_chestplate",
+        "leather_horse_armor",
+        "leather_leggings",
+        "leather_helmet"
+    ]
+}

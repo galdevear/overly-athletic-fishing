@@ -1,0 +1,59 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "location_check",
+        "predicate": {
+          "biome":"beach"
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "biome":"mushroom_field_shore"
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "biome": "stone_shore"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:ocean"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:lukewarm_ocean"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:deep_ocean"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:deep_lukewarm_ocean"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:cold_ocean"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:deep_cold_ocean"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,53 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "location_check",
+        "predicate":{
+          "feature": "ruined_portal"
+        }
+      },
+      {
+        "condition": "location_check",
+        "offsetX": 5,
+        "predicate":{
+          "feature": "ruined_portal"
+        }
+      },
+      {
+        "condition": "location_check",
+        "offsetX": -5,
+        "predicate":{
+          "feature": "ruined_portal"
+        }
+      },
+      {
+        "condition": "location_check",
+        "offsetZ": 5,
+        "predicate":{
+          "feature": "ruined_portal"
+        }
+      },
+      {
+        "condition": "location_check",
+        "offsetZ": -5,
+        "predicate":{
+          "feature": "ruined_portal"
+        }
+      },
+      {
+        "condition": "location_check",
+        "offsetY": -7,
+        "predicate":{
+          "feature": "ruined_portal"
+        }
+      },
+      {
+        "condition": "location_check",
+        "offsetY": -14,
+        "predicate":{
+          "feature": "ruined_portal"
+        }
+      }
+    ]
+  }

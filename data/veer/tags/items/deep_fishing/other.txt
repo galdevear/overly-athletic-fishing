@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+        "cod",
+        "lantern",
+        "cauldron",
+        "hopper",
+        "flower_pot",
+        "tripwire_hook",
+        "stone_button",
+        "minecart",
+        "cobweb",
+        "honeycomb",
+        "flint",
+        "nether_star",
+        "phantom_membrane",
+        "prismarine_shard",
+        "beetroot",
+        "glow_berries",
+        "coco_beans",
+        "sunflower"
+    ]
+}

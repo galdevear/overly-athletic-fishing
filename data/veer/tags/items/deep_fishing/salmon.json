@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "spider_eye",
+        "fermented_spider_eye",
+        "rabbit_foot",
+
+        "honeycomb",
+
+        "gold_nugget",
+
+        "nether_wart",
+        "ender_eye"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "cod",
+        "tropical_fish",
+        "salmon",
+        "pufferfish",
+        "porkchop",
+        "bone",
+        "bundle",
+        "experience_bottle"
+    ]
+}

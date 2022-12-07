@@ -1,0 +1,144 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "weight": 92,
+            "type": "minecraft:loot_table",
+            "name": "minecraft:gameplay/fishing/treasure"
+          },
+          {
+            "type": "group",
+            "weight": 8,
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name":"minecraft:trapped_chest",
+                "conditions": [
+                  {
+                    "condition": "alternative",
+                    "terms": [
+                      {
+                        "condition": "location_check",
+                        "predicate": {
+                          "feature": "shipwreck"
+                        }
+                      },
+                      {
+                        "condition": "location_check",
+                        "offsetY": -10,
+                        "predicate": {
+                          "feature": "shipwreck"
+                        }
+                      },
+                      {
+                        "condition": "location_check",
+                        "offsetY": -20,
+                        "predicate": {
+                          "feature": "shipwreck"
+                        }
+                      }
+                    ]
+                  } 
+                ],
+                "functions": [
+                  {
+                    "function": "set_nbt",
+                    "tag": "{BlockEntityTag: {LootTable: 'minecaft:chests/shipwreck_map'}}"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name":"minecraft:trapped_chest",
+                "conditions": [
+                  {
+                    "condition": "alternative",
+                    "terms": [
+                      {
+                        "condition": "location_check",
+                        "predicate": {
+                          "feature": "buried_treasure"
+                        }
+                      },
+                      {
+                        "condition": "location_check",
+                        "offsetY": -10,
+                        "predicate": {
+                          "feature": "buried_treasure"
+                        }
+                      },
+                      {
+                        "condition": "location_check",
+                        "offsetY": -20,
+                        "predicate": {
+                          "feature": "buried_treasure"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_nbt",
+                    "tag": "{BlockEntityTag: {LootTable: 'minecaft:chests/underwater_ruin_small'}}"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name":"minecraft:barrel",
+                "conditions": [
+                  {
+                    "condition": "alternative",
+                    "terms": [
+                      {
+                        "condition": "location_check",
+                        "predicate": {
+                          "feature": "ocean_ruin"
+                        }
+                      },
+                      {
+                        "condition": "location_check",
+                        "offsetY": -10,
+                        "predicate": {
+                          "feature": "ocean_ruin"
+                        }
+                      },
+                      {
+                        "condition": "location_check",
+                        "offsetY": -20,
+                        "predicate": {
+                          "feature": "ocean_ruin"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_nbt",
+                    "tag": "{BlockEntityTag: {LootTable: 'minecaft:chests/underwater_ruin_small'}}"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name":"minecraft:prismarine_shard",
+                "conditions": [
+                  {
+                    "condition": "location_check",
+                    "predicate": {
+                      "feature": "monument"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

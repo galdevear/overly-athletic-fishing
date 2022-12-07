@@ -1,0 +1,9 @@
+{
+    "condition": "location_check",
+    
+    "predicate": {
+        "block": {
+            "tag": "veer:dsf/prevent_despawn"
+        }
+    }
+}

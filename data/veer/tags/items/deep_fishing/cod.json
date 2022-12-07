@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+        "rotten_flesh",
+        "honeycomb",
+        
+        "spider_eye",
+        "fermented_spider_eye",
+
+        "iron_nugget",
+        "tripwire_hook",
+        
+        "glistering_melon_slice",
+        
+        "nether_wart",
+        "magma_cream",
+
+        "flint",
+        "glow_ink_sac",
+
+        "bone"
+    ]
+}

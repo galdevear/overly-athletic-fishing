@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "cod",
+        "iron_nugget",
+        "tripwire_hook",
+        "gold_nugget",
+        "bone",
+        "nether_wart",
+        "ender_pearl",
+        "rabbit_foot",
+        "porkchop",
+        "rabbit_foot",
+        "pufferfish",
+        "salmon",
+        "pumpkin_pie",
+        "sunflower"
+    ]
+}
